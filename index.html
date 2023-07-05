@@ -10,7 +10,7 @@
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                  <a class= img>
+                  <a class="img">
                     <img src="./images/nsb-logo.png" alt="nsb-logo" width="65" height="60"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,28 +28,28 @@
               </nav>
         </header>
         <main>
-            <div class="text-center">
-                <section>Welcome to Nashville Smile Bar!</section>
-                <p>We offer premium hand crafted photo booths for any event. Contact us today!</p>
+            <div class="main text-center">
+                <section><h1>Welcome to Nashville Smile Bar!</h1></section>
+                <p><h5>We offer premium hand crafted photo booths for any event. Contact us today!</h5></p>
                 <button type="button" class="btn btn-success" href="#">REQUEST A QUOTE</button>
                 <div class="container-fluid">
                     <div class="row align-items-start">
                       <div class="col">
-                        <section>Weddings</section>
+                        <section><h6>Weddings</h6></section>
                         <section class="img">
                             <img class="img-fluid" src="./images/wedding.jpg" alt="Wedding Photo">
                         </section>
                         Never take a moment for granted. A photo booth will bring flair to your wedding, entertain you and your guests, and capture unforgettable moments on your special day.
                       </div>
                       <div class="col"> 
-                        <section>Birthdays</section>
+                        <section><h6>Birthdays</h6></section>
                         <section class="img">
                             <img class="img-fluid" src="./images/birthday.2.jpg" alt="Birthday Photo">
                         </section>
                         Birthdays come only once a year, but with a photo booth, the memories you make with your friends and family will last a lifetime!
                       </div>
                       <div class="col">
-                        <section>Corporate</section>
+                        <section><h6>Corporate</h6></section>
                         <section class="img">
                             <img class="img-fluid" src="./images/corporate.jpg" alt="Corporate Photo">
                         </section>
@@ -58,6 +58,7 @@
                     </div>
                 </div>
             </div>
+            <!--NEED TO CENTER THE FOLLOWING CAROUSEL AND GRAB REVIEWS FROM GOOGLE-->
                 <div id="carouselExampleIndicators" class="carousel slide">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -66,13 +67,13 @@
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <span>text 1</span>
+                        <span>text 1: feed from google reviews</span>
                       </div>
                       <div class="carousel-item">
-                        <span>text 2</span>
+                        <span>text 2: feed from google reviews</span>
                       </div>
                       <div class="carousel-item">
-                        <span>text 3</span>
+                        <span>text 3: feed from google reviews</span>
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -84,8 +85,61 @@
                       <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                <section>
+                  <!--grid of photos-->
+                  <form action="#" method="POST">
+                    <div class="mb-3">
+                      <label for="namefield" class="form-label">NAME</label>
+                      <input type="text" class="form-control" id="namefield"/>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">EMAIL</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1"/>
+                    </div>
+                    <div class="mb-3">
+                      <label for="eventdate" class="form-label">EVENT DATE</label>
+                      <input type="text" class="form-control" id="eventdate"/>
+                    </div>
+                    <div class="mb-3">
+                      <label for="eventlocation" class="form-label">EVENT LOCATION</label>
+                      <input type="text" class="form-control" id="eventlocation"/>
+                    </div>
+                    <div class="mb-3">
+                      <label for="eventdetailsTextarea" class="form-label">EVENT DETAILS</label>
+                      <textarea class="form-control" id="eventdetailsTextarea" rows="5"></textarea>
+                    </div>
+                    <div class="mb-3">
+                      <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                  </form>
+                </section>
         </main>
-        <footer></footer>
+        <footer>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link" href="#">FAQ</a>
+                        <a class="nav-link" href="#">BLOG</a>
+                        <a class="nav-link" href="#">CONTACT</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div>Nashville Smile Bar</div>
+          <div class="socialmedia">
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+            </ul>
+          </div>
+        </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
 </html>
