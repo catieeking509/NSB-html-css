@@ -1,6 +1,7 @@
 # Nashville Smile Bar: Photo Booth Rental Website
 
-Inspiration: https://www.letsboothit.com/, https://nashvillesmilebar.com/, https://www.majesticphotobooths.com/
+Hosting link: https://catieeking509.github.io/NSB-html-css/
+
 
 ## User Stories
 
@@ -17,3 +18,12 @@ AS A college graduate
 I WANT TO browse through example photos
 SO I know whether or not nsb can provide the aesthetic I'm looking for
 ```
+
+
+##Wireframes
+
+See the wireframes folder for a low-level wireframe.
+
+##Inspiration 
+
+https://www.letsboothit.com/, https://nashvillesmilebar.com/, https://www.majesticphotobooths.com/
