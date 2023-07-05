@@ -1,0 +1,17 @@
+/* *************************main styles ****************************/
+* {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.main-intro {
+    text-align: center;
+}
+
+.col {
+    text: center;
+    font-style: italic;
+}
+
+.contact-grid-form-container {
+    display: flex;
+}

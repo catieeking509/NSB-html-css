@@ -29,85 +29,104 @@
               </nav>
         </header>
         <main>
-            <div class="main text-center">
-                <section><h1>Welcome to Nashville Smile Bar!</h1></section>
-                <h5>We offer premium hand crafted photo booths for any event. Contact us today!</h5>
-                <button type="button" class="btn btn-success">REQUEST A QUOTE</button>
-                <div class="container-fluid">
-                    <div class="row align-items-start">
-                      <div class="col">
-                        <section><h6>Weddings</h6></section>
-                        <img class="img-fluid" src="./images/wedding.jpg" alt="Wedding Photo">
-                        Never take a moment for granted. A photo booth will bring flair to your wedding, entertain you and your guests, and capture unforgettable moments on your special day.
-                      </div>
-                      <div class="col"> 
-                        <section><h6>Birthdays</h6></section>
-                        <img class="img-fluid" src="./images/birthday.2.jpg" alt="Birthday Photo">
-                        Birthdays come only once a year, but with a photo booth, the memories you make with your friends and family will last a lifetime!
-                      </div>
-                      <div class="col">
-                        <section><h6>Corporate</h6></section>
-                        <img class="img-fluid" src="./images/corporate.jpg" alt="Corporate Photo">
-                        Your next company event will be a success with a photo booth. From corporate parties, conventions, trade shows, or even large-scale conferences, we will provide professional service and deliver an exceptional product that will guarantee an event to remember.
-                      </div>
-                    </div>
-                </div>
+          <section class="main-intro">
+            <section><h1>Welcome to Nashville Smile Bar!</h1></section>
+              <h5>We offer premium hand crafted photo booths for any event. Contact us today!</h5>
+              <button type="button" class="btn btn-success">REQUEST A QUOTE</button>
+          </section>
+          <section class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <section><h6>Weddings</h6></section>
+                  <img class="img-fluid" src="./images/feature-1.jpg" alt="Wedding Photo">
+                    Never take a moment for granted. A photo booth will bring flair to your wedding, entertain you and your guests, and capture unforgettable moments on your special day.
+              </div>
+              <div class="col"> 
+                <section><h6>Birthdays</h6></section>
+                  <img class="img-fluid" src="./images/feature-2.jpg" alt="Birthday Photo">
+                    Birthdays come only once a year, but with a photo booth, the memories you make with your friends and family will last a lifetime!
+              </div>
+              <div class="col">
+                <section><h6>Corporate</h6></section>
+                  <img class="img-fluid" src="./images/feature-3.jpg" alt="Corporate Photo">
+                    Your next company event will be a success with a photo booth. From corporate parties, conventions, trade shows, or even large-scale conferences, we will provide professional service and deliver an exceptional product that will guarantee an event to remember.
+              </div>
             </div>
-            <!--NEED TO CENTER THE FOLLOWING CAROUSEL AND GRAB REVIEWS FROM GOOGLE-->
-                <div id="carouselExampleIndicators" class="carousel slide">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <span>text 1: feed from google reviews</span>
-                      </div>
-                      <div class="carousel-item">
-                        <span>text 2: feed from google reviews</span>
-                      </div>
-                      <div class="carousel-item">
-                        <span>text 3: feed from google reviews</span>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
+          </section>
+          <section class= "testimonial-carousel">
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/carousel-1.jpg" class="d-block w-100" alt="Gallentine">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Happy Client</h5>
+                    <p>Nashville Smile Bar is awesome! They were super helpful and accommodating throughout the planning process, and the booth itself is VERY user friendly which our guests enjoyed. Everyone loved the beautiful photos!
+                    </p>
+                  </div>
                 </div>
-                <section>
-                  <!--grid of photos-->
-                  <form action="#" method="POST">
-                    <div class="mb-3">
-                      <label for="namefield" class="form-label">NAME</label>
-                      <input type="text" class="form-control" id="namefield">
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">EMAIL</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1">
-                    </div>
-                    <div class="mb-3">
-                      <label for="eventdate" class="form-label">EVENT DATE</label>
-                      <input type="text" class="form-control" id="eventdate">
-                    </div>
-                    <div class="mb-3">
-                      <label for="eventlocation" class="form-label">EVENT LOCATION</label>
-                      <input type="text" class="form-control" id="eventlocation">
-                    </div>
-                    <div class="mb-3">
-                      <label for="eventdetailsTextarea" class="form-label">EVENT DETAILS</label>
-                      <textarea class="form-control" id="eventdetailsTextarea" rows="5"></textarea>
-                    </div>
-                    <div class="mb-3">
-                      <button type="submit" class="btn btn-success">Submit</button>
-                    </div>
-                  </form>
-                </section>
+                <div class="carousel-item">
+                  <img src="./images/carousel-2.jpg" class="d-block w-100" alt="Wedding Group">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Happy Bride</h5>
+                    <p>We used Nashville Smile Bar for our wedding and it was such a huge hit with our guests! The photobooths are so chic and user friendly. Also working with Jen was such a treat, she is so sweet and easy to work with. Thanks again!
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/carousel-3.jpg" class="d-block w-100" alt="Birthday B&W">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Happy Client</h5>
+                    <p>I used Smile Bar for a recent birthday celebration, and Catie was wonderful.  It was an outdoor party and she was so accommodating as I had to move her inside.  I would recommend Nashville Smile Bar for your next event.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+          <section class="contact">
+            <h2>Contact</h2>
+              <section class="contact-grid-form-container">
+                <!--grid of photos-->
+                <form action="#" method="POST">
+                  <div class="mb-3">
+                    <label for="namefield" class="form-label">NAME</label>
+                    <input type="text" class="form-control" id="namefield">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">EMAIL</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
+                  </div>
+                  <div class="mb-3">
+                    <label for="eventdate" class="form-label">EVENT DATE</label>
+                    <input type="text" class="form-control" id="eventdate">
+                  </div>
+                  <div class="mb-3">
+                    <label for="eventlocation" class="form-label">EVENT LOCATION</label>
+                    <input type="text" class="form-control" id="eventlocation">
+                  </div>
+                  <div class="mb-3">
+                    <label for="eventdetailsTextarea" class="form-label">EVENT DETAILS</label>
+                    <textarea class="form-control" id="eventdetailsTextarea" rows="5"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                  </div>
+                </form>
+              </section>
+            </section>
         </main>
         <footer>
           <nav class="navbar navbar-expand-lg bg-body-tertiary">
