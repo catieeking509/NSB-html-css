@@ -20,10 +20,10 @@ SO I know whether or not nsb can provide the aesthetic I'm looking for
 ```
 
 
-##Wireframes
+## Wireframes
 
 See the wireframes folder for a low-level wireframe.
 
-##Inspiration 
+## Inspiration 
 
 https://www.letsboothit.com/, https://nashvillesmilebar.com/, https://www.majesticphotobooths.com/
