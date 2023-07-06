@@ -3,15 +3,34 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
-.main-intro {
+.columns-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 100px;
     text-align: center;
+    padding-top: 20px;
+    border-top: 5px dotted darkseagreen;
 }
 
-.col {
-    text: center;
-    font-style: italic;
+.column-one-container {
+    margin: 0 5%
 }
 
-.contact-grid-form-container {
-    display: flex;
+.column-two-container {
+    margin: 0 5%
+}
+
+.column-three-container {
+    margin: 0 5%
+}
+.contact-img-form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text-container {
+    display: inline-block;
+    margin: 45px 15%;
+    border-left: 5px dotted darkseagreen;
+    padding-left: 15px;
 }

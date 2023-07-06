@@ -29,30 +29,7 @@
               </nav>
         </header>
         <main>
-          <section class="main-intro">
-            <section><h1>Welcome to Nashville Smile Bar!</h1></section>
-              <h5>We offer premium hand crafted photo booths for any event. Contact us today!</h5>
-              <button type="button" class="btn btn-success">REQUEST A QUOTE</button>
-          </section>
-          <section class="container text-center">
-            <div class="row align-items-start">
-              <div class="col">
-                <section><h6>Weddings</h6></section>
-                  <img class="img-fluid" src="./images/feature-1.jpg" alt="Wedding Photo">
-                    Never take a moment for granted. A photo booth will bring flair to your wedding, entertain you and your guests, and capture unforgettable moments on your special day.
-              </div>
-              <div class="col"> 
-                <section><h6>Birthdays</h6></section>
-                  <img class="img-fluid" src="./images/feature-2.jpg" alt="Birthday Photo">
-                    Birthdays come only once a year, but with a photo booth, the memories you make with your friends and family will last a lifetime!
-              </div>
-              <div class="col">
-                <section><h6>Corporate</h6></section>
-                  <img class="img-fluid" src="./images/feature-3.jpg" alt="Corporate Photo">
-                    Your next company event will be a success with a photo booth. From corporate parties, conventions, trade shows, or even large-scale conferences, we will provide professional service and deliver an exceptional product that will guarantee an event to remember.
-              </div>
-            </div>
-          </section>
+          <!--edit images for clarity in carousel-->
           <section class= "testimonial-carousel">
             <div id="carouselExampleCaptions" class="carousel slide">
               <div class="carousel-indicators">
@@ -96,37 +73,64 @@
               </button>
             </div>
           </section>
+          <section class="text-container">
+            <p>Welcome to Nashville Smile Bar!</p>
+            <p>
+              We offer premium hand crafted photo booths for any event. At NSB, we pride ourselves in providing
+              the best photo booth experience in Nashville or its surrounding boroughs. 
+
+              Our goal is to “Make the Party” and provide you with memories that last a lifetime.
+              We have the best quality prints and provide exemplary customer service. 
+
+              We design custom Classic Photo Booths and provide event photo booth rentals for brands and venues nationwide. We work closely with our clients to create a custom photo booth experience that perfectly fits their aesthetic and begs to be shared. 
+            </p>
+          </section>
+          <button type="button" class="btn btn-success">REQUEST A QUOTE</button>
+          <section class="columns-container">
+            <div class="column-one-container">
+              <h6 class="column-title">Weddings</h6>
+              <p>Never take a moment for granted. A photo booth will bring flair to your wedding, entertain you and your guests, and capture unforgettable moments on your special day.</p>
+            </div>
+            <div class="column-two-container">
+                <h6 class="column-title">Birthdays</h6>
+                <p>Birthdays come only once a year, but with a photo booth, the memories you make with your friends and family will last a lifetime!</p>
+            </div>
+            <div class="column-three-container">
+                <h6 class="column-title">Corporate</h6>
+                <p>Your next company event will be a success with a photo booth. From corporate parties, conventions, trade shows, or even large-scale conferences, we will provide professional service and deliver an exceptional product that will guarantee an event to remember.</p>
+            </div>
+          </section>
           <section class="contact">
             <h2>Contact</h2>
-              <section class="contact-grid-form-container">
-                <!--grid of photos-->
-                <form action="#" method="POST">
-                  <div class="mb-3">
-                    <label for="namefield" class="form-label">NAME</label>
-                    <input type="text" class="form-control" id="namefield">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">EMAIL</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
-                  </div>
-                  <div class="mb-3">
-                    <label for="eventdate" class="form-label">EVENT DATE</label>
-                    <input type="text" class="form-control" id="eventdate">
-                  </div>
-                  <div class="mb-3">
-                    <label for="eventlocation" class="form-label">EVENT LOCATION</label>
-                    <input type="text" class="form-control" id="eventlocation">
-                  </div>
-                  <div class="mb-3">
-                    <label for="eventdetailsTextarea" class="form-label">EVENT DETAILS</label>
-                    <textarea class="form-control" id="eventdetailsTextarea" rows="5"></textarea>
-                  </div>
-                  <div class="mb-3">
-                    <button type="submit" class="btn btn-success">Submit</button>
-                  </div>
-                </form>
-              </section>
+            <section class="contact-img-form-container">
+              <img src="./images/nsb-banner.2.png" alt="Banner">
+              <form action="#" method="POST">
+                <div class="mb-3">
+                  <label for="namefield" class="form-label">NAME</label>
+                  <input type="text" class="form-control" id="namefield">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">EMAIL</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+                <div class="mb-3">
+                  <label for="eventdate" class="form-label">EVENT DATE</label>
+                  <input type="text" class="form-control" id="eventdate">
+                </div>
+                <div class="mb-3">
+                  <label for="eventlocation" class="form-label">EVENT LOCATION</label>
+                  <input type="text" class="form-control" id="eventlocation">
+                </div>
+                <div class="mb-3">
+                  <label for="eventdetailsTextarea" class="form-label">EVENT DETAILS</label>
+                  <textarea class="form-control" id="eventdetailsTextarea" rows="5"></textarea>
+                </div>
+                <div class="mb-3">
+                  <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+              </form>
             </section>
+          </section>
         </main>
         <footer>
           <nav class="navbar navbar-expand-lg bg-body-tertiary">
