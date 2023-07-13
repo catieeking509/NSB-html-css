@@ -13,6 +13,12 @@
     user-select: none;
 }
 
+.welcome {
+    font-family: 'Bad Script', cursive;
+    font-size: 45px;
+}
+
+
 .button-container {
     display: flex;
     justify-content: center;
@@ -21,7 +27,7 @@
 .columns-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 75px auto 100px auto;
+    margin: 75px 0 100px 0;
     text-align: center;
     padding-top: 20px;
     border-top: 5px dotted darkseagreen;
@@ -29,38 +35,66 @@
     background-color:rgba(245, 189, 206, 0.178);
 }
 
-#column-one-container {
+.column-one-container {
+    padding: 0 7.5px 0 37.5px;
+}
+
+.column-two-container {
     padding: 0 15px;
 }
 
-#column-two-container {
-    padding: 0 15px;
+.column-three-container {
+    padding: 0 37.5px 0 7.5px;
 }
 
-#column-three-container {
-    padding: 0 15px;
+.our-booths {
+    font-family: 'Bad Script', cursive;
+    border-left: 5px dotted darkseagreen;
+    padding-left: 15px;
+    margin-left: 30px;
+}
+
+.card {
+    width: 700px;
+    height: fit-content;
+}
+
+.our-booths-card-container {
+    display: flex;
+    margin: 25px 100px 100px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.card-text {
+    font-family: Verdana, sans-serif;
 }
 
 .more-info {
-    text-align: center;
-    padding-bottom: 15px;
+    font-family: 'Bad Script', cursive;
+    border-left: 5px dotted darkseagreen;
+    padding-left: 15px;
+    margin-left: 30px;
 }
 
 .contact-img-form-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
-    margin-bottom: 100px;
+    justify-content: space-between;
+    margin: 15px 0 100px 0;
 }
 
 .contact-img {
-    width: 90%;
-    padding: 55px 0 0 65px;
-    width: 90%;
+    width: 70%;
+    padding: 0 0 0 10%;
 }
 
 .contact-form {
-    padding: 10%;
+    padding: 0 10% 0 0;
 }
 
 /* *************************footer styles ****************************/

@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nashville Smile Bar</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
       </head>
     <body>
@@ -73,7 +76,7 @@
             </div>
           </section>
           <section class="text-container">
-            <p>Welcome to Nashville Smile Bar!</p>
+            <p class="welcome">Welcome to Nashville Smile Bar</p>
             <p>
               We offer premium hand crafted photo booths for any event. At NSB, we pride ourselves in providing
               the best photo booth experience in Nashville or its surrounding boroughs. 
@@ -86,7 +89,7 @@
             </p>
           </section>
           <section class="button-container">
-            <button type="button" class="btn btn-success">REQUEST A QUOTE</button>
+            <a href="#" class="btn btn-success">REQUEST A QUOTE</a>
           </section>
           <section class="columns-container">
             <div class="column-one-container">
@@ -95,12 +98,12 @@
                 entertain you and your guests, and capture unforgettable moments on your special day.</em>
               </p>
             </div>
-            <div id="column-two-container">
+            <div class="column-two-container">
                 <h6 class="column-title">Birthdays</h6>
                 <p><em>Birthdays come only once a year, but with a photo booth, the memories you make with your friends and family will last 
                   a lifetime!</em></p>
             </div>
-            <div id="column-three-container">
+            <div class="column-three-container">
                 <h6 class="column-title">Corporate</h6>
                 <p><em>Your next company event will be a success with a photo booth. From corporate parties, conventions, 
                   trade shows, or even large-scale conferences, we will provide professional service and deliver an exceptional 
@@ -108,8 +111,33 @@
                 </p>
             </div>
           </section>
+          <section>
+            <h2 class="our-booths">OUR BOOTHS</h2>
+          </section>
+          <section class="our-booths-card-container">
+            <div class="card bg-pb">
+              <img src="./images/pb.png" class="card-img-top" alt="Photo Booth">
+              <div class="card-body">
+                <h5 class="card-title">Photo Booth</h5>
+                <p class="card-text">Our classic booth exudes southern charm. Handcrafted from solid wood, this beauty takes 
+                  studio quality images and prints immediately on site for your guests.
+                </p>
+                <a href="./services.html" class="btn btn-success">TAKE A CLOSER LOOK</a>
+              </div>
+            </div>
+            <div class="card bg-sb">
+              <img src="./images/sb.png" class="card-img-top" alt="Social Booth">
+              <div class="card-body">
+                <h5 class="card-title">Social Booth</h5>
+                <p class="card-text">The Social Booth is our fully digital option, perfect for small footprint areas or 
+                  travel. Designed for portability, this booth is ready to follow wherever you may roam!
+                </p>
+                <a href="./services.html" class="btn btn-success">TAKE A CLOSER LOOK</a>
+              </div>
+            </div>
+          </section>
           <section class="contact">
-            <h2 class="more-info"><em>Want More Information?</em></h2>
+            <h2 class="more-info">WANT MORE INFO?</h2>
             <section class="contact-img-form-container">
               <img src="./images/nsb-banner.2.png" class="contact-img" alt="NSB Logo Image">
               <form class="contact-form" action="#" method="POST">
