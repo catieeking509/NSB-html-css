@@ -7,7 +7,7 @@
 /* *************************main styles ****************************/
 .text-container {
     display: inline-block;
-    margin: 45px 15%;
+    margin: 45px 5%;
     border-left: 5px dotted darkseagreen;
     padding-left: 15px;
     user-select: none;
@@ -27,7 +27,7 @@
 .columns-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 75px 0 100px 0;
+    margin: 75px 0;
     text-align: center;
     padding-top: 20px;
     border-top: 5px dotted darkseagreen;
@@ -55,15 +55,14 @@
 }
 
 .our-booths-card-container {
-    display: flex;
-    margin: 25px 100px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0;
     text-align: center;
-    justify-content: space-evenly;
 }
 
 .card {
-    width: 700px;
-    height: fit-content;
+    padding: 10px
 }
 
 .card-title {
@@ -83,9 +82,9 @@
 
 .contact-img-form-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    margin: 25px 0 100px 0;
+    margin: 50px 0;
 }
 
 .contact-img {
@@ -95,10 +94,80 @@
 
 .contact-form {
     padding: 0 10% 0 0;
+    grid-column: 2 / 4;
 }
 
 /* *************************footer styles ****************************/
 footer {
     display: flex;
 
+}
+
+/* *************************media queries ****************************/
+@media screen and (max-width: 992px) {
+    .contact-img-form-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-container {
+        margin: 10px 25px;
+    }
+
+    .our-booths-card-container {
+        display: grid;
+        margin: 25px 50px;
+    }
+
+    .card {
+        margin-bottom: 25px
+    }
+
+    .contact-img-form-container {
+        display: block;
+        margin: 25px 25px 25px;
+    }
+
+    .contact-img {
+        display: none;
+    }
+
+    .contact-form {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .welcome {
+        font-size: 35px;
+    }
+
+    .columns-container {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0;
+    }
+
+    .column-one {
+        padding: 5px;
+    }
+
+    .column-two {
+        padding: 5px;
+    }
+
+    .column-three {
+        padding: 5px;
+    }
+
+    .card {
+        width: 500px;
+    }
+
+    .our-booths-card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
