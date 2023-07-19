@@ -15,6 +15,10 @@ ul {
     padding: 0;
 }
 
+p {
+    margin-block-start: 0;
+}
+
 .carousel-caption {
     color: black;
     background-color: rgba(253,243,246,.25);
@@ -96,7 +100,7 @@ ul {
     font-weight: bolder;
 }
 
-.card-text {
+.card-text, .services-text {
     font-family: Verdana, sans-serif;
 }
 
@@ -122,6 +126,60 @@ ul {
 .contact-form {
     padding: 0 10% 0 0;
     grid-column: 2 / 4;
+}
+
+.services-header {
+    font-family: 'Bad Script', cursive;
+    font-size: 45px;
+    margin-top: 50px;
+    border-left: 5px dotted darkseagreen;
+    padding-left: 15px;
+    margin-left: 30px;
+}
+
+.text-header {
+    font-family: 'Bad Script', cursive;
+    font-weight: bolder;
+}
+
+.faq-container {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+
+.faq-columns-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 0 0;
+    padding: 50px;
+    border-top: 5px dotted darkseagreen;
+    user-select: none;
+    background-color:rgba(245, 189, 206, 0.178);
+}
+
+.faq-header {
+    font-family: 'Bad Script', cursive;
+    font-size: 30px; 
+    margin: 25px 10px;
+    padding-bottom: 50px;
+}
+
+.faq-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.column-image {
+    max-width: 200px;
+}
+
+.faq-button-container {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
 }
 
 /* *************************footer styles ****************************/
@@ -188,6 +246,30 @@ ul {
 
     .contact-form {
         padding: 0;
+    }
+
+    .faq-columns-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .column-title{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .faq-columns-container {
+        margin: 50px 0;
+        padding: 50px 5px;
+    }
+
+    .faq-header {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .column-image {
+        display: none;
     }
 }
 
