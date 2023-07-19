@@ -226,6 +226,13 @@ ul {
 }
 
 /* *************************media queries ****************************/
+
+@media screen and (max-width: 1200px) {
+    .services-carousel-container {
+        margin: 50px 250px 25px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .contact-img-form-container {
         grid-template-columns: 1fr 1fr;
@@ -257,6 +264,14 @@ ul {
 
     .contact-form {
         padding: 0;
+    }
+
+    .services-carousel-container {
+        margin: 50px 100px 25px;
+    }
+
+    .services-header {
+        font-size: 30px;
     }
 
     .faq-columns-container {
