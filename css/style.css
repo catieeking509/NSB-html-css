@@ -4,6 +4,14 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
+body {
+    min-width: 525px;
+}
+
+ul {
+    padding: 0;
+}
+
 /* *************************main styles ****************************/
 .text-container {
     display: inline-block;
@@ -100,7 +108,33 @@
 /* *************************footer styles ****************************/
 footer {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(245, 189, 206, 0.178);
+}
 
+.footer-logo {
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-icon-container {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.social-media-icon {
+    width: 40px;
 }
 
 /* *************************media queries ****************************/
