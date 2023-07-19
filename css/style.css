@@ -12,7 +12,17 @@ ul {
     padding: 0;
 }
 
+.carousel-caption {
+    color: black;
+    background-color: rgba(253,243,246,.25);
+}
+
 /* *************************main styles ****************************/
+
+.banner {
+    min-width: 100%;
+}
+
 .text-container {
     display: inline-block;
     margin: 45px 5%;
@@ -41,6 +51,11 @@ ul {
     border-top: 5px dotted darkseagreen;
     user-select: none;
     background-color:rgba(245, 189, 206, 0.178);
+}
+
+.column-title {
+    font-family: 'Bad Script', cursive;
+    font-weight: bolder;
 }
 
 .column-one {
@@ -74,6 +89,7 @@ ul {
 }
 
 .card-title {
+    font-family: 'Bad Script', cursive;
     font-weight: bolder;
 }
 
