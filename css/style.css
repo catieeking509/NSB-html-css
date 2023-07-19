@@ -130,11 +130,22 @@ p {
 
 .services-header {
     font-family: 'Bad Script', cursive;
-    font-size: 45px;
+    font-size: 35px;
     margin-top: 50px;
     border-left: 5px dotted darkseagreen;
     padding-left: 15px;
     margin-left: 30px;
+    background-color:rgba(245, 189, 206, 0.178);
+}
+
+.services-carousel-container {
+    margin: 50px 400px 25px;
+}
+
+.services-text{
+    display: grid;
+    text-align: center;
+    margin: 15px;
 }
 
 .text-header {
