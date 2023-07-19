@@ -141,26 +141,26 @@
             <h2 class="more-info">WANT MORE INFO?</h2>
             <section class="contact-img-form-container">
               <img src="./images/nsb-banner.2.png" class="contact-img" alt="NSB Logo Image">
-              <form class="contact-form" action="#" method="POST">
+              <form class="contact-form" action="https://formspree.io/f/xgejvaer" method="POST">
                 <div class="mb-3">
                   <label for="namefield" class="form-label">NAME</label>
-                  <input type="text" class="form-control" id="namefield">
+                  <input type="name" class="form-control" id="namefield" name="name" required>
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">EMAIL</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1">
+                  <input type="email" class="form-control" id="exampleInputEmail1" name="email" required>
                 </div>
                 <div class="mb-3">
                   <label for="eventdate" class="form-label">EVENT DATE</label>
-                  <input type="text" class="form-control" id="eventdate">
+                  <input type="text" class="form-control" id="eventdate" name="event-date" required>
                 </div>
                 <div class="mb-3">
                   <label for="eventlocation" class="form-label">EVENT LOCATION</label>
-                  <input type="text" class="form-control" id="eventlocation">
+                  <input type="text" class="form-control" id="eventlocation" name="event-location" required>
                 </div>
                 <div class="mb-3">
                   <label for="eventdetailsTextarea" class="form-label">EVENT DETAILS</label>
-                  <textarea class="form-control" id="eventdetailsTextarea" rows="5"></textarea>
+                  <textarea class="form-control" id="eventdetailsTextarea" name="event-details" rows="5"></textarea>
                 </div>
                 <div class="mb-3">
                   <button type="submit" class="btn btn-success">Submit</button>
