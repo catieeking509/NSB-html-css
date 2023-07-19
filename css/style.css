@@ -169,6 +169,7 @@ p {
 }
 
 .faq-header {
+    font-family: 'Bad Script', cursive;
     font-size: 30px; 
     margin: 25px 10px;
     padding-bottom: 50px;
