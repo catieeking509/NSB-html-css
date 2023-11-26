@@ -9,6 +9,7 @@
 
 body {
     min-width: 525px;
+    background-color: #382f32;
 }
 
 ul {
@@ -19,9 +20,15 @@ p {
     margin-block-start: 0;
 }
 
+.bg-body-tertiary {
+    background-color: #382f32;
+}
+
+/* *************************main styles ****************************/
+
 .carousel-caption {
     color: black;
-    background-color: rgba(253,243,246,.25);
+    background-color: rgba(253, 243, 246, 0.39);
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -32,17 +39,10 @@ p {
     background-color: rgb(10, 10, 10, 0.404);
 }
 
-/* *************************main styles ****************************/
-
-.banner {
-    min-width: 100%;
-    max-height: 150px;
-}
-
 .text-container {
     display: inline-block;
-    margin: 45px 5%;
-    border-left: 5px dotted darkseagreen;
+    margin: 45px 50px 5px 50px;
+    border-left: 5px dotted #D2C1B9;
     padding-left: 15px;
     user-select: none;
 }
@@ -50,28 +50,54 @@ p {
 .welcome {
     font-family: 'Bad Script', cursive;
     font-size: 45px;
+    font-weight: bolder;
+    padding-top: 15px;
+    color: #a18a81fc;
 }
 
+.intro-text {
+    color: #D2C1B9;
+    margin-bottom: 50px;
+}
 
 .button-container {
     display: flex;
     justify-content: center;
+    margin: 60px 0 100px 0;
+}
+
+.quote-button {
+    height: 100px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #D2C1B9;
+    font-weight: bold;
+}
+
+.quote-button:hover {
+    color: #D2C1B9;
+    border-color: #D2C1B9;
 }
 
 .columns-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 75px 0;
+    margin: 0 50px 20px 50px;
     text-align: center;
-    padding-top: 20px;
-    border-top: 5px dotted darkseagreen;
+    padding: 50px 0 15px 0;
+    border-top: 5px dotted #D2C1B9;
     user-select: none;
-    background-color:rgba(245, 189, 206, 0.178);
+    border-right: 5px dotted #D2C1B9;
+}
+
+.column-text {
+    color: #D2C1B9;
 }
 
 .column-title {
-    font-family: 'Bad Script', cursive;
-    font-weight: bolder;
+    color: #a18a81fc;
 }
 
 .column-one {
@@ -86,44 +112,48 @@ p {
     padding: 0 37.5px 0 7.5px;
 }
 
-.booths {
-    border-left: 5px dotted darkseagreen;
-    padding-left: 15px;
-    margin-left: 30px;
+.header-general {
+    font-size: 35px;
+    margin: 50px 30px 0px 30px;
+    padding: 10px 0 10px 20px;
+    background-color: rgba(245, 189, 206, 0.178);
+    border-radius: 35px 35px 0 0;
+    color: #D2C1B9;
 }
 
 .our-booths-card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 50px 0;
+    margin: 0 30px 50px 30px;
     text-align: center;
 }
 
 .card {
-    padding: 10px
+    padding: 10px;
+    background-color: rgba(245, 189, 206, 0.178);
+    border: none;
+    --bs-card-border-radius: none;
 }
 
 .card-title {
     font-family: 'Bad Script', cursive;
     font-weight: bolder;
+    color: #D2C1B9;
 }
 
 .card-text, .services-text {
     font-family: Verdana, sans-serif;
+    color: #D2C1B9;
 }
 
-.more-info {
-    border-left: 5px dotted darkseagreen;
-    padding-left: 15px;
-    margin-left: 30px;
+.more-info-container {
+    margin: 0 30px 0 30px;
+    padding: 50px 30px 0 50px;
+    background-color: #b3aeae;
+    border-radius: 0 0 35px 0;
 }
 
-.contact-img-form-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
-    margin: 50px 0;
-}
+/*** contact styles ***/
 
 .contact-img {
     width: 70%;
@@ -137,25 +167,16 @@ p {
 
 /***** services styles ****/
 
-.services-header {
-    font-weight: bolder;
-    font-size: 35px;
-    margin: 50px 30px 0px 30px;
-    padding: 20px 0 20px 20px;
-    background-color: darkseagreen;
-    border-radius: 35px 0 0 0;
-}
-
 .pb-services-container, .sb-services-container {
     display: grid;
     grid-template-columns: 60% 40%;
     margin-left: 30px;
 }
 
-.services-text{
+.services-text {
     margin: 0 30px 0 0;
     padding: 50px 30px 0 50px;
-    background-color: darkseagreen;
+    background-color: #b3aeae;
     border-radius: 0 0 35px 0;
 }
 
@@ -176,15 +197,9 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 50px 0 0;
     padding: 50px;
-    border-top: 5px dotted darkseagreen;
+    border-top: 5px dotted #b3aeae;
     user-select: none;
     background-color:rgba(245, 189, 206, 0.178);
-}
-
-.faq-header {
-    font-size: 30px; 
-    margin: 25px 10px;
-    padding-bottom: 50px;
 }
 
 .faq-column {
@@ -210,7 +225,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(245, 189, 206, 0.178);
+    background-color: #514045;
 }
 
 .footer-logo {

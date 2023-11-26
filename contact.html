@@ -33,8 +33,32 @@
             </nav>
     </header>
     <main>
-        <section class="distance-container">
-            
+        <section class="contact-form-container">
+            <form class="contact-form" action="https://formspree.io/f/xgejvaer" method="POST">
+                <div class="mb-3">
+                  <label for="namefield" class="form-label">NAME</label>
+                  <input type="text" class="form-control" id="namefield" name="name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">EMAIL</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" name="email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="eventdate" class="form-label">EVENT DATE</label>
+                  <input type="text" class="form-control" id="eventdate" name="event-date" required>
+                </div>
+                <div class="mb-3">
+                  <label for="eventlocation" class="form-label">EVENT LOCATION</label>
+                  <input type="text" class="form-control" id="eventlocation" name="event-location" required>
+                </div>
+                <div class="mb-3">
+                  <label for="eventdetailsTextarea" class="form-label">EVENT DETAILS</label>
+                  <textarea class="form-control" id="eventdetailsTextarea" name="event-details" rows="5"></textarea>
+                </div>
+                <div class="mb-3">
+                  <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+              </form>
         </section>
     </main>
     <footer>
