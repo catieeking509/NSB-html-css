@@ -25,9 +25,13 @@ p {
 }
 
 .bg-body-tertiary {
-    --bs-tertiary-bg-rgb: ;
+    --bs-tertiary-bg-rgb: rgb(81,64,69);
     --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
 }
+
+/* *************************main styles ****************************/
+
 
 .header-general {
     font-size: 35px;
@@ -37,8 +41,6 @@ p {
     border-radius: 35px 35px 0 0;
     color: #D2C1B9;
 }
-
-/* *************************main styles ****************************/
 
 .testimonial-carousel {
     max-width: 80%;
@@ -156,10 +158,18 @@ p {
     color: #D2C1B9;
 }
 
+.card-button-container {
+    display: flex;
+    justify-content: center;
+}
+
 .card-button {
     height: 50px;
     width: 200px;
     background-color: #D2C1B9;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .more-info-container {
