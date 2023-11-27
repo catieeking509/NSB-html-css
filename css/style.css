@@ -12,6 +12,10 @@ body {
     background-color: #382f32;
 }
 
+header {
+    background-color: rgb(81,64,69);
+}
+
 ul {
     padding: 0;
 }
@@ -21,10 +25,26 @@ p {
 }
 
 .bg-body-tertiary {
-    background-color: #382f32;
+    --bs-tertiary-bg-rgb: ;
+    --bs-bg-opacity: 1;
+}
+
+.header-general {
+    font-size: 35px;
+    margin: 50px 30px 0px 30px;
+    padding: 10px 0 10px 20px;
+    background-color: rgba(245, 189, 206, 0.178);
+    border-radius: 35px 35px 0 0;
+    color: #D2C1B9;
 }
 
 /* *************************main styles ****************************/
+
+.testimonial-carousel {
+    max-width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
 
 .carousel-caption {
     color: black;
@@ -73,7 +93,6 @@ p {
     display: flex;
     justify-content: center;
     background-color: #D2C1B9;
-    font-weight: bold;
 }
 
 .quote-button:hover {
@@ -112,15 +131,6 @@ p {
     padding: 0 37.5px 0 7.5px;
 }
 
-.header-general {
-    font-size: 35px;
-    margin: 50px 30px 0px 30px;
-    padding: 10px 0 10px 20px;
-    background-color: rgba(245, 189, 206, 0.178);
-    border-radius: 35px 35px 0 0;
-    color: #D2C1B9;
-}
-
 .our-booths-card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -144,6 +154,12 @@ p {
 .card-text, .services-text {
     font-family: Verdana, sans-serif;
     color: #D2C1B9;
+}
+
+.card-button {
+    height: 50px;
+    width: 200px;
+    background-color: #D2C1B9;
 }
 
 .more-info-container {
