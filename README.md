@@ -37,5 +37,4 @@ Catie King
 This is a website that allows clients to inquire about renting photo booth services in the Nashville area
 Offers a contact option, service information, and faq pages
 Put together using html and css
-Future improvements: increase speed, more concise commits, strive for better cohesion
 ```
