@@ -256,14 +256,17 @@ p {
 
 /*** contact styles ***/
 
-.contact-img {
-    width: 70%;
-    padding: 0 0 0 10%;
+.contact-form-container {
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
-
 .contact-form {
-    padding: 0 10% 0 0;
-    grid-column: 2 / 4;
+    padding: 40px 0 20px;
+    text-align: left;
+    min-width: 80%;
 }
 
 /* *************************footer styles ****************************/
