@@ -6,6 +6,8 @@
 body {
     min-width: 525px;
     background-color: #382f32;
+    color: #D2C1B9;
+    font-size: 20px;
 }
 
 header {
@@ -14,6 +16,10 @@ header {
 
 ul {
     padding: 0;
+}
+
+.no-style {
+    list-style: none;
 }
 
 p {
@@ -30,19 +36,15 @@ p {
     --bs-nav-link-color: #D2C1B9;
 }
 
+.container-general {
+    background-color: rgba(245, 189, 206, 0.178);
+    margin: 0 30px 50px 30px;
+    padding: 0 30px 45px 30px;
+}
 
 /* *************************main styles ****************************/
 
-
-.header-general {
-    font-family: 'Poiret One', sans-serif;
-    font-size: 55px;
-    margin: 50px 30px 0px 30px;
-    padding: 10px 0 10px 20px;
-    background-color: rgba(245, 189, 206, 0.178);
-    border-radius: 35px 35px 0 0;
-    color: #D2C1B9;
-}
+/** carousel styles**/
 
 .testimonial-carousel {
     max-width: 80%;
@@ -63,6 +65,18 @@ p {
     background-color: rgb(10, 10, 10, 0.404);
 }
 
+/**home styles **/
+
+.header-general {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 55px;
+    margin: 50px 30px 0px 30px;
+    padding: 10px 0 10px 20px;
+    background-color: rgba(245, 189, 206, 0.178);
+    border-radius: 35px 35px 0 0;
+    color: #a18a81fc;
+}
+
 .text-container {
     display: inline-block;
     margin: 45px 50px 5px 50px;
@@ -74,6 +88,7 @@ p {
 .welcome-w {
     font-family: 'Stalemate', cursive;
     font-size: 75px;
+    color: #a18a81fc;
 }
 
 .welcome {
@@ -84,7 +99,6 @@ p {
 }
 
 .intro-text {
-    color: #D2C1B9;
     margin-bottom: 50px;
 }
 
@@ -101,7 +115,6 @@ p {
     display: flex;
     justify-content: center;
     background-color: #D2C1B9;
-    font-size: 20px;
 }
 
 .quote-button:hover {
@@ -121,7 +134,7 @@ p {
 }
 
 .column-text {
-    color: #D2C1B9;
+    font-size: 18px;
 }
 
 .column-title {
@@ -142,16 +155,15 @@ p {
     padding: 0 37.5px 0 7.5px;
 }
 
-.our-booths-card-container {
+.our-booths {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0 30px 50px 30px;
     text-align: center;
 }
 
 .card {
     padding: 10px;
-    background-color: rgba(245, 189, 206, 0.178);
+    background-color: transparent;
     border: none;
     --bs-card-border-radius: none;
 }
@@ -163,7 +175,7 @@ p {
 }
 
 .card-text, .services-text {
-    font-family: Verdana, sans-serif;
+    font-size: 18px;
     color: #D2C1B9;
 }
 
@@ -179,61 +191,36 @@ p {
     align-items: center;
     display: flex;
     justify-content: center;
-    font-size: 20px;
 }
 
-.more-info-container {
-    margin: 0 30px 0 30px;
-    padding: 50px 30px 0 50px;
-    background-color: #b3aeae;
-    border-radius: 0 0 35px 0;
+.card-button:hover {
+    color: #D2C1B9;
+    border-color: #D2C1B9;
 }
 
-/*** contact styles ***/
-
-.contact-img {
-    width: 70%;
-    padding: 0 0 0 10%;
-}
-
-.contact-form {
-    padding: 0 10% 0 0;
-    grid-column: 2 / 4;
-}
 
 /***** services styles ****/
 
-.pb-services-container, .sb-services-container {
+.pb-services, .sb-services {
     display: grid;
     grid-template-columns: 60% 40%;
-    margin-left: 30px;
 }
 
-.services-text {
-    margin: 0 30px 0 0;
-    padding: 50px 30px 0 50px;
-    background-color: rgba(245, 189, 206, 0.178);
+.text-general {
+    padding: 60px 30px 0 60px;
 }
 
 .text-header {
     font-size: 25px;
+    font-family: 'Poiret One', sans-serif;
 }
 
 /**** faq styles ***/
 
-.faq-container {
-    display: grid;
-    grid-template-rows: 50px 1fr;
-}
-
-.faq-columns-container {
+.faq-columns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 50px 0 0;
-    padding: 50px;
-    border-top: 5px dotted #b3aeae;
     user-select: none;
-    background-color:rgba(245, 189, 206, 0.178);
 }
 
 .faq-column {
@@ -252,6 +239,36 @@ p {
     margin: 25px;
     display: flex;
     justify-content: center;
+}
+
+
+/** blog styles **/
+
+.blog-post {
+    padding: 0px 35px 60px 60px;
+    background-color: transparent;
+    margin: 45px 50px 5px 50px;
+    border-left: 5px dotted #D2C1B9;
+    padding-left: 15px;
+    list-style: none;
+    border-bottom: 5px dotted #D2C1B9;
+}
+
+.blog-header {
+    background-color: transparent;
+}
+
+
+/*** contact styles ***/
+
+.contact-img {
+    width: 70%;
+    padding: 0 0 0 10%;
+}
+
+.contact-form {
+    padding: 0 10% 0 0;
+    grid-column: 2 / 4;
 }
 
 /* *************************footer styles ****************************/
